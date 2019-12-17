@@ -8,4 +8,8 @@ export class NavbarComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  searchHero(termino: string) {
+    console.log(termino);
+  }
 }

@@ -11,7 +11,6 @@ export class HeroesComponent implements OnInit {
   constructor(private _heroesService: HeroesService, private router: Router) {}
   ngOnInit() {
     this.heroes = this._heroesService.getHeroes();
-    console.log(this.heroes);
   }
   seeHeroe(idx: number) {
     this.router.navigate(["/heroe", idx]);
