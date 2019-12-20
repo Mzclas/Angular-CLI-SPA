@@ -38,3 +38,14 @@ body {
 .fadeIn {
     animation-name: fadeIn;
 }
+
+.line-clamp {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.heroe-card {
+    padding: 10px;
+}
